@@ -1,0 +1,46 @@
+/* Enter your custom styles here */
+ .OtbMenuButton .sapMBtnContent{
+	font-size: 1.2rem;
+	font-weight: 600;
+    font-family: Georgia,serif;
+ }
+.OtbMenuButton.Home .sapMBtnContent{
+	color: #c70000;
+}
+.OtbMenuButton.About .sapMBtnContent{
+	color: #e05e00;
+}
+.OtbMenuButton.Skills .sapMBtnContent{
+	color: #0084c6;
+}
+.OtbMenuButton.ProjectExp .sapMBtnContent{
+	color: #a1845c;
+}
+.OtbMenuButton.Education .sapMBtnContent{
+	color: #bb3b80;
+}
+.OtbMenuButton.Contact .sapMBtnContent{
+	color: #5d5f5f;
+}
+@media screen and (max-width: 600px){
+	.sapMTBSeparator{
+		display: none;
+	}
+	.OtbMenuButton .sapMBtnContent{
+		font-size: 0.9rem;
+	}
+}
+.sapMPageEnableScrolling .sapMTB{
+	height: 3rem;
+}
+.sapMPage{
+	background-color: #ffffff;
+}
+.nameTitle,
+.weatherNameTitle{
+	font-weight: bold;
+}
+.weatherNameTitle .weatherwidget-io{
+	width: 200px;
+	/*height:180px !important;*/
+}
