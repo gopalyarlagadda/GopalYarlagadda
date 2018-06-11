@@ -26,8 +26,7 @@ sap.ui.define([
 				return oFormFragment;
 			}
 		
-			//oFormFragment = sap.ui.xmlfragment(this.getView().getId(), "gy.com.GopalYarlagadda.view." + sFragmentName);
-			oFormFragment = sap.ui.xmlfragment(this.getView().getId(), "{i18n>viewNameSpace}" + sFragmentName);
+			oFormFragment = sap.ui.xmlfragment(this.getView().getId(), "gy.com.GopalYarlagadda.view." + sFragmentName);
 		
 			var myFragment = (this._formFragments[sFragmentName] = oFormFragment);
 			return myFragment;

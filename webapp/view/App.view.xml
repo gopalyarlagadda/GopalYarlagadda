@@ -1,16 +1,16 @@
 <mvc:View 
 	controllerName="gy.com.GopalYarlagadda.controller.App" 
-	xmlns:html="http://www.w3.org/1999/xhtml" 
-	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" 
 	displayBlock="true" 
 	xmlns="sap.m">
 	<App>
 		<pages>
 			<Page id="idAppControl">
-				<headerContent>
-					<core:Fragment id="headerWidget" fragmentName="gy.com.GopalYarlagadda.view.Header" type="XML" />
-				</headerContent>
 				<content></content>
+				<headerContent>
+					<!--<core:Fragment id="headerWidget" fragmentName="gy.com.GopalYarlagadda.view.Header" type="XML" />-->
+				</headerContent>
 			</Page>
 		</pages>
 	</App>
