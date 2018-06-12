@@ -26,7 +26,7 @@ sap.ui.define([
 				return oFormFragment;
 			}
 		
-			oFormFragment = sap.ui.xmlfragment(this.getView().getId(), "gy.com.GopalYarlagadda.view." + sFragmentName);
+			oFormFragment = sap.ui.xmlfragment(this.getView().getId(), "gy.com.GopalYarlagadda.view.fragment." + sFragmentName);
 		
 			var myFragment = (this._formFragments[sFragmentName] = oFormFragment);
 			return myFragment;
@@ -38,14 +38,20 @@ sap.ui.define([
 			oPage.removeAllContent();
 			var oFrag = this._getFormFragment(sFragmentName);
 			oPage.addContent(oFrag);
-			//oFrag.placeAt("content");
 		},
 		
 		onPressHome: function(oEvent){
-			this._showFormFragment("Home");			
+			//Highlight the selected button
+			var homeBtn = oEvent.getSource();
+			homeBtn.addStyleClass("headerBtnSelected");
+			
+			this._showFormFragment("Home");
 		},
 		
 		onPressProjectExp: function(oEvent){
+			//Highlight the selected button
+			var projExpBtn = oEvent.getSource();
+			projExpBtn.addStyleClass("headerBtnSelected");
 			this._showFormFragment("ProjectExp");
 		},
 		onPressBack: function(){

@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:core="sap.ui.core">
+	<OverflowToolbar id="otb1">
+		<ToolbarSpacer/>
+		<Button id="homeBtn" text="{i18n>homeText}" type="Transparent" class="OtbMenuButton Home" press="onPressHome"/>
+		<Button id="projExpBtn" text="{i18n>projExpText}" type="Transparent" class="OtbMenuButton ProjectExp" press="onPressProjectExp"/>
+		<Button id="skillsBtn" text="{i18n>skillsText}" type="Transparent" class="OtbMenuButton Skills"/>
+		<Button id="educationBtn" text="{i18n>educationText}" type="Transparent" class="OtbMenuButton Education"/>
+		<Button id="aboutBtn" text="{i18n>aboutText}" type="Transparent" class="OtbMenuButton About"/>
+		<Button id="contactBtn" text="{i18n>contactText}" type="Transparent" class="OtbMenuButton Contact"/>
+		<ToolbarSpacer/>
+	</OverflowToolbar>
+</core:FragmentDefinition>

@@ -10,7 +10,7 @@
 			<Page id="idAppControl">
 				<content></content>
 				<headerContent>
-					<core:Fragment id="headerWidget" fragmentName="gy.com.GopalYarlagadda.view.Header" type="XML" />
+					<core:Fragment id="headerWidget" fragmentName="gy.com.GopalYarlagadda.view.fragment.Header" type="XML" />
 				</headerContent>
 			</Page>
 		</pages>

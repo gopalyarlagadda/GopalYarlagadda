@@ -3,28 +3,22 @@
    xmlns:l="sap.ui.layout"
    xmlns:core="sap.ui.core">
 	<l:Grid 
-		binding="{/Portfolio}"
+		binding="{/portfolio}"
 		hSpacing="0.5"
 		defaultSpan="L2 M6 S10"
 		class="sapUiSmallMargin ProjExpPage">
 		<l:content>
-			<VBox class="weatherBox weatherNameTitle">
-				<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.Weather" type="XML"/>
-			</VBox>			
             <VBox class="column">
 				<layoutData>
 					<l:GridData
 						span="L8 M8 S8"/>
 				</layoutData>
-				<Panel	headerText="{i18n>gyTitle}"
-						class="nameTitle"
+				<Panel headerText="Implementations"
 					   width="100%">
-					<Text text="{i18n>homePageText}" class="homePageText"/>
+					<Text text="Metropolitan Police services" class="projExpTitle nameTitle"/>
+					<Text text="SAP Portal Consultant" class="projExpDescription"/>
 				</Panel>
             </VBox>
-			<VBox class="newsBox newsNameTitle">
-				<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.News" type="XML"/>
-			</VBox>
 		</l:content>
 	</l:Grid>	
 </core:FragmentDefinition>

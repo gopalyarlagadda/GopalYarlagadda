@@ -51,3 +51,36 @@
 .weatherNameTitle .weatherwidget-io{
 	width: 200px;
 }
+.sapMBtnInner{
+	background-color: #f7f7f7 !important;
+	border-radius:0rem !important;
+}
+.Home.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #c70000 !important;
+}
+.ProjectExp.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #a1845c !important;
+}
+.Skills.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #0084c6 !important;
+}
+.Education.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #bb3b80 !important;
+}
+.homeContentPanelTitle,
+.gyTitle{
+	font-weight: bold !important;
+}
+.About.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #e05e00 !important;
+}
+.Contact.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #5d5f5f !important;
+}
+.homeContentPanelTitle .sapMPanelHdr{
+	color: #c70000 !important;
+}
+/*.sapMText,*/
+/*.sapMPanelHdr{*/
+/*	font-family: Georgia,serif !important;*/
+/*}*/

@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:core="sap.ui.core">
+	<l:Grid 
+		binding="{/Portfolio}"
+		hSpacing="0.5"
+		defaultSpan="L2 M6 S10"
+		class="sapUiSmallMargin ProjExpPage">
+		<l:content>
+			<VBox class="column weatherBox weatherNameTitle">
+				<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.Weather" type="XML"/>
+			</VBox>			
+            <VBox class="column">
+				<layoutData>
+					<l:GridData
+						span="L8 M8 S8"/>
+				</layoutData>
+				<Panel class="homeContentPanelTitle" headerText="{i18n>gyTitle}">
+					<Image
+						src="../images/gy.jpg"
+						densityAware="false">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Image>					
+					<content>
+						<Text text="{i18n>homePageText}" class="homePageText"/>
+					</content>
+				</Panel>
+				<!--<Panel class="homeContentPanel">-->
+				<!--	<headerToolbar>-->
+
+				<!--	</headerToolbar>-->
+				<!--	<Text text="{i18n>homePageText}" class="homePageText"/>-->
+				<!--</Panel>-->
+            </VBox>
+			<VBox class="column newsBox newsNameTitle">
+				<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.News" type="XML"/>
+			</VBox>
+		</l:content>
+	</l:Grid>	
+</core:FragmentDefinition>
