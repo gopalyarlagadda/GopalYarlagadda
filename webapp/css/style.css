@@ -1,4 +1,8 @@
 /* Enter your custom styles here */
+/*Menu styling*/
+.sapMIBar.sapMHeader-CTX{
+	background-color: white;
+}
  .OtbMenuButton .sapMBtnContent{
 	font-size: 1.2rem;
 	font-weight: 600;

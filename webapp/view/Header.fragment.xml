@@ -4,12 +4,12 @@
    xmlns:core="sap.ui.core">
 	<OverflowToolbar id="otb1">
 		<ToolbarSpacer/>
-		<Button text="{i18n>homeText}" type="Transparent" class="OtbMenuButton Home" icon="sap-icon://home" press="onPressHome"/>
-		<Button text="{i18n>projExpText}" type="Transparent" class="OtbMenuButton ProjectExp" icon="sap-icon://collaborate" press="onPressProjectExp"/>
-		<Button text="{i18n>skillsText}" type="Transparent" class="OtbMenuButton Skills" icon="sap-icon://badge"/>
-		<Button text="{i18n>educationText}" type="Transparent" class="OtbMenuButton Education" icon="sap-icon://study-leave"/>
-		<Button text="{i18n>aboutText}" type="Transparent" class="OtbMenuButton About" icon="sap-icon://hint"/>
-		<Button text="{i18n>contactText}" type="Transparent" class="OtbMenuButton Contact" icon="sap-icon://business-card"/>
+		<Button text="{i18n>homeText}" type="Transparent" class="OtbMenuButton Home" press="onPressHome"/>
+		<Button text="{i18n>projExpText}" type="Transparent" class="OtbMenuButton ProjectExp" press="onPressProjectExp"/>
+		<Button text="{i18n>skillsText}" type="Transparent" class="OtbMenuButton Skills"/>
+		<Button text="{i18n>educationText}" type="Transparent" class="OtbMenuButton Education"/>
+		<Button text="{i18n>aboutText}" type="Transparent" class="OtbMenuButton About"/>
+		<Button text="{i18n>contactText}" type="Transparent" class="OtbMenuButton Contact"/>
 		<ToolbarSpacer/>
 	</OverflowToolbar>
 </core:FragmentDefinition>
