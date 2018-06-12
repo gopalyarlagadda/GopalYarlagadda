@@ -14,16 +14,32 @@
 			data-sap-ui-compatVersion="edge"
 			data-sap-ui-resourceroots='{"gy.com.GopalYarlagadda": "./"}'>
 		</script>
+		<script>
+			!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0];
+				if(!d.getElementById(id)){
+					js=d.createElement(s);
+					js.id=id;
+					js.src='https://weatherwidget.io/js/widget.min.js';
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}
+			(document,'script','weatherwidget-io-js');
+		</script>
+		<script>
+			if (typeof (fg_widgets) === "undefined")
+			fg_widgets = new Array(); 
+			fg_widgets.push("fgid_d21f5256621a18ecf4d2f9e36");
+		</script>
+		<script async src="https://www.feedgrabbr.com/widget/fgwidget.js"></script>		
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<script>
 			sap.ui.getCore().attachInit(function() {
-				new sap.m.Shell({
-					app: new sap.ui.core.ComponentContainer({
+				new sap.ui.core.ComponentContainer({
 						height : "100%",
 						name : "gy.com.GopalYarlagadda"
-					})
 				}).placeAt("content");
 			});
 		</script>

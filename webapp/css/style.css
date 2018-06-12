@@ -37,10 +37,13 @@
 	background-color: #ffffff;
 }
 .nameTitle,
+.nameTitle .sapMPanelHdr,
 .weatherNameTitle{
 	font-weight: bold;
 }
+.homePageText{
+	font-weight:normal;
+}
 .weatherNameTitle .weatherwidget-io{
 	width: 200px;
-	/*height:180px !important;*/
 }

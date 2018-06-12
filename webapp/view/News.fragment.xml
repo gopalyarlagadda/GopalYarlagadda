@@ -1,0 +1,6 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:core="sap.ui.core">
+	<core:HTML content="&lt;div class=&quot;feedgrabbr_widget&quot; id=&quot;fgid_d21f5256621a18ecf4d2f9e36&quot;&gt;&lt;/div&gt;"/>
+</core:FragmentDefinition>
