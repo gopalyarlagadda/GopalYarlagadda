@@ -48,6 +48,7 @@
 }
 .homePageText{
 	font-weight:normal;
+	vertical-align: top;
 }
 .weatherNameTitle .weatherwidget-io{
 	width: 200px;
@@ -100,4 +101,13 @@
 }
 .social .link{
 	color: white;
+}
+.gyImage{
+	width: 150px;
+}
+.getInTouchTitle,
+.sapUiFormTitle.sapUiFormTitleH5{
+    padding-left: 25%;
+    font-size: 25px;
+    font-weight: bold;	
 }

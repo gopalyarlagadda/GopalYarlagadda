@@ -19,7 +19,8 @@
 				<Panel class="homeContentPanelTitle" headerText="{i18n>gyTitle}">
 					<Image
 						src="../images/gy.jpg"
-						densityAware="false">
+						densityAware="false"
+						class="gyImage">
 						<layoutData>
 							<FlexItemData growFactor="1" />
 						</layoutData>

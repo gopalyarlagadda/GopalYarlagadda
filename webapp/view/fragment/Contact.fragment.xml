@@ -36,12 +36,18 @@
 								<Input value="" id="name"/>
 							</f:fields>
 						</f:FormElement>
+						<f:FormElement label="{i18n>messageLblTxt}">
+							<f:fields>
+								<TextArea value="" id="message"/>
+							</f:fields>
+						</f:FormElement>						
 						<f:FormElement label="{i18n>emailLblTxt}">
 							<f:fields>
-								<Input value="" id="email"/>
-								<!--	<layoutData>-->
-								<!--		<l:GridData span="XL1 L2 M2 S4" />-->
-								<!--	</layoutData>-->
+								<Input value="" id="email">
+									<layoutData>
+										<l:GridData span="XL1 L2 M2 S4" />
+									</layoutData>									
+								</Input>
 							</f:fields>
 						</f:FormElement>
 						<f:FormElement label="{i18n>telLblTxt}">
@@ -61,18 +67,12 @@
 										<core:Item text="{i18n>countrySctItem}" key="SC"/>
 										<core:Item text="{i18n>countryNIItem}" key="NI"/>
 									</items>
+									<layoutData>
+										<l:GridData span="XL1 L2 M2 S4" />
+									</layoutData>									
 								</Select>
 							</f:fields>
 						</f:FormElement>
-						<!--<f:FormElement>-->
-						<!--	<f:fields>-->
-						<!--		<Button id="submitBtn" text="{i18n>submitText}" type="Emphasized" class="sapUI submitButtonContactForm" press="onPressSubmit">-->
-						<!--			<layoutData>-->
-						<!--				<l:GridData span="XL6 L6 M8 S10" />-->
-						<!--			</layoutData>									-->
-						<!--		</Button>-->
-						<!--	</f:fields>-->
-						<!--</f:FormElement>-->
 					</f:formElements>
 				</f:FormContainer>
 			</f:formContainers>
