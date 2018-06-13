@@ -60,6 +60,15 @@ sap.ui.define([
 			projExpBtn.addStyleClass("headerBtnSelected");
 			this._showFormFragment("ProjectExp");
 		},
+		onPressSkills: function(oEvent){
+			var projExpBtn = oEvent.getSource();
+			projExpBtn.addStyleClass("headerBtnSelected");
+			this._showFormFragment("Skills");			
+		},
+		onPressSubmit: function(oEvent){
+			var submBtn = oEvent.getSource();
+		},
+		
 		onPressBack: function(){
 			var oHist, sPrevHash, oRouter;
 			oHist = sap.ui.core.routing.History.getInstance();

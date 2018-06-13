@@ -63,7 +63,7 @@
 	border-bottom-color: #c70000 !important;
 }
 .ProjectExp.headerBtnSelected .sapMBtnInner{
-	border-bottom-color: #a1845c !important;
+	border-bottom-color: #e05e00 !important;
 }
 .Skills.headerBtnSelected .sapMBtnInner{
 	border-bottom-color: #0084c6 !important;
@@ -79,7 +79,7 @@
   border-bottom-color: #e05e00 !important;
 }
 .Contact.headerBtnSelected .sapMBtnInner{
-  border-bottom-color: #5d5f5f !important;
+  border-bottom-color: #bb3b80 !important;
 }
 .homeContentPanelTitle .sapMPanelHdr{
 	color: white !important;
@@ -90,4 +90,14 @@
 .sapMPanelHdr,
 .sapUiForm .sapUiFormTitle{
 	color: white !important;
+}
+.submitButtonContactForm{
+	padding-left: 26%;
+}
+.social{
+	margin-left: 26%;
+	margin-top: 1%;
+}
+.social .link{
+	color: white;
 }

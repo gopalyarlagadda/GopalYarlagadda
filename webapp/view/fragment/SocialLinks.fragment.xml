@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:core="sap.ui.core">
+	<core:HTML content="&lt;div id=&quot;social&quot; class=&quot;social&quot;&gt;
+	&lt;a class=&quot;link dribbble&quot; target=&quot;_blank data-tooltip=&quot;Follow me on Dribbble&quot; href=&quot;http://www.dribbble.com/gopalyarlagadda&quot;&gt;
+		&lt;img src=&quot;&quot; alt=&quot;My Dribbble page&quot;&gt;
+	&lt;/a&gt;
+	&lt;a class=&quot;link twitter&quot; target=&quot;_blank data-tooltip=&quot;Follow me on Twitter&quot; href=&quot;https://twitter.com/gopalyarlagadda&quot;&gt;
+		&lt;img src=&quot;../images/twitter.jpg&quot; alt=&quot;My Twitter page&quot;&gt;
+	&lt;/a&gt;
+	&lt;a class=&quot;link linkedin&quot; target=&quot;_blank data-tooltip=&quot;Follow me on Linkedin&quot; href=&quot;https://linkedin.com/in/gopal-yarlagadda-58396945&quot;&gt;
+		&lt;img src=&quot;&quot; alt=&quot;My Linkedin page&quot;&gt;
+	&lt;/a&gt;
+	&lt;a class=&quot;link email&quot; target=&quot;_blank data-tooltip=&quot;Contact me via email&quot; href=&quot;mailto:mailyarlagadda@gmail.com&quot;&gt;
+		&lt;img src=&quot;&quot; alt=&quot;My Email address&quot;&gt;
+	&lt;/a&gt;
+&lt;/div&gt;"/>
+</core:FragmentDefinition>
