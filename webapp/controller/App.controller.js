@@ -48,6 +48,12 @@ sap.ui.define([
 			this._showFormFragment("Home");
 		},
 		
+		onPressContact: function(oEvent){
+			var projExpBtn = oEvent.getSource();
+			projExpBtn.addStyleClass("headerBtnSelected");
+			this._showFormFragment("Contact");
+		},
+		
 		onPressProjectExp: function(oEvent){
 			//Highlight the selected button
 			var projExpBtn = oEvent.getSource();

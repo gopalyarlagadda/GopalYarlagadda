@@ -8,9 +8,9 @@
 		defaultSpan="L2 M6 S10"
 		class="sapUiSmallMargin ProjExpPage">
 		<l:content>
-			<VBox class="column weatherBox weatherNameTitle">
-				<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.Weather" type="XML"/>
-			</VBox>			
+			<!--<VBox class="column weatherBox weatherNameTitle sapUiVisibleOnlyOnDesktop">-->
+			<!--	<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.Weather" type="XML"/>-->
+			<!--</VBox>			-->
             <VBox class="column">
 				<layoutData>
 					<l:GridData
@@ -35,9 +35,9 @@
 				<!--	<Text text="{i18n>homePageText}" class="homePageText"/>-->
 				<!--</Panel>-->
             </VBox>
-			<VBox class="column newsBox newsNameTitle">
-				<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.News" type="XML"/>
-			</VBox>
+			<!--<VBox class="column newsBox newsNameTitle sapUiVisibleOnlyOnDesktop">-->
+			<!--	<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.News" type="XML"/>-->
+			<!--</VBox>-->
 		</l:content>
 	</l:Grid>	
 </core:FragmentDefinition>

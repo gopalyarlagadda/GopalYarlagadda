@@ -1,31 +1,32 @@
 /* Enter your custom styles here */
 /*Menu styling*/
 .sapMIBar.sapMHeader-CTX{
-	background-color: white;
+	background-color: #1E2E44;
 }
  .OtbMenuButton .sapMBtnContent{
 	font-size: 1.2rem;
 	font-weight: 600;
-    font-family: Georgia,serif;
+	color:white;
+    /*font-family: Georgia,serif;*/
  }
-.OtbMenuButton.Home .sapMBtnContent{
-	color: #c70000;
-}
-.OtbMenuButton.About .sapMBtnContent{
-	color: #e05e00;
-}
-.OtbMenuButton.Skills .sapMBtnContent{
-	color: #0084c6;
-}
-.OtbMenuButton.ProjectExp .sapMBtnContent{
-	color: #a1845c;
-}
-.OtbMenuButton.Education .sapMBtnContent{
-	color: #bb3b80;
-}
-.OtbMenuButton.Contact .sapMBtnContent{
-	color: #5d5f5f;
-}
+/*.OtbMenuButton.Home .sapMBtnContent{*/
+/*	color: #c70000;*/
+/*}*/
+/*.OtbMenuButton.About .sapMBtnContent{*/
+/*	color: #e05e00;*/
+/*}*/
+/*.OtbMenuButton.Skills .sapMBtnContent{*/
+/*	color: #0084c6;*/
+/*}*/
+/*.OtbMenuButton.ProjectExp .sapMBtnContent{*/
+/*	color: #a1845c;*/
+/*}*/
+/*.OtbMenuButton.Education .sapMBtnContent{*/
+/*	color: #bb3b80;*/
+/*}*/
+/*.OtbMenuButton.Contact .sapMBtnContent{*/
+/*	color: #5d5f5f;*/
+/*}*/
 @media screen and (max-width: 600px){
 	.sapMTBSeparator{
 		display: none;
@@ -38,7 +39,7 @@
 	height: 3rem;
 }
 .sapMPage{
-	background-color: #ffffff;
+	background-color: #1E2E44;
 }
 .nameTitle,
 .nameTitle .sapMPanelHdr,
@@ -52,20 +53,23 @@
 	width: 200px;
 }
 .sapMBtnInner{
-	background-color: #f7f7f7 !important;
-	border-radius:0rem !important;
+	background-color: #1E2E44 !important;
+	/*border-radius:0rem !important;*/
+}
+.headerBtnSelected .sapMBtnInner{
+	border-bottom-width: medium;
 }
 .Home.headerBtnSelected .sapMBtnInner{
-  border-bottom-color: #c70000 !important;
+	border-bottom-color: #c70000 !important;
 }
 .ProjectExp.headerBtnSelected .sapMBtnInner{
-  border-bottom-color: #a1845c !important;
+	border-bottom-color: #a1845c !important;
 }
 .Skills.headerBtnSelected .sapMBtnInner{
-  border-bottom-color: #0084c6 !important;
+	border-bottom-color: #0084c6 !important;
 }
 .Education.headerBtnSelected .sapMBtnInner{
-  border-bottom-color: #bb3b80 !important;
+	border-bottom-color: #bb3b80 !important;
 }
 .homeContentPanelTitle,
 .gyTitle{
@@ -78,9 +82,12 @@
   border-bottom-color: #5d5f5f !important;
 }
 .homeContentPanelTitle .sapMPanelHdr{
-	color: #c70000 !important;
+	color: white !important;
+	font-size:40px;
 }
-/*.sapMText,*/
-/*.sapMPanelHdr{*/
-/*	font-family: Georgia,serif !important;*/
-/*}*/
+.sapMText,
+.sapMLabel,
+.sapMPanelHdr,
+.sapUiForm .sapUiFormTitle{
+	color: white !important;
+}
