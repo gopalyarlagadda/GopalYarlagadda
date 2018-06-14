@@ -1,0 +1,115 @@
+/* Enter your custom styles here */
+/*Menu styling*/
+.sapMIBar.sapMHeader-CTX{
+	background-color: #1E2E44;
+	/*background-color: #5a616b;*/
+}
+ .OtbMenuButton .sapMBtnContent{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color:white;
+    /*font-family: Georgia,serif;*/
+ }
+/*.OtbMenuButton.Home .sapMBtnContent{*/
+/*	color: #c70000;*/
+/*}*/
+/*.OtbMenuButton.About .sapMBtnContent{*/
+/*	color: #e05e00;*/
+/*}*/
+/*.OtbMenuButton.Skills .sapMBtnContent{*/
+/*	color: #0084c6;*/
+/*}*/
+/*.OtbMenuButton.ProjectExp .sapMBtnContent{*/
+/*	color: #a1845c;*/
+/*}*/
+/*.OtbMenuButton.Education .sapMBtnContent{*/
+/*	color: #bb3b80;*/
+/*}*/
+/*.OtbMenuButton.Contact .sapMBtnContent{*/
+/*	color: #5d5f5f;*/
+/*}*/
+@media screen and (max-width: 600px){
+	.sapMTBSeparator{
+		display: none;
+	}
+	.OtbMenuButton .sapMBtnContent{
+		font-size: 0.9rem;
+	}
+}
+.sapMPageEnableScrolling .sapMTB{
+	height: 3rem;
+}
+.sapMPage{
+	background-color: #1E2E44;
+	/*background-color: #5a616b;*/
+}
+.nameTitle,
+.nameTitle .sapMPanelHdr,
+.weatherNameTitle{
+	font-weight: bold;
+}
+.homePageText{
+	font-weight:normal;
+	vertical-align: top !important;
+}
+.weatherNameTitle .weatherwidget-io{
+	width: 200px;
+}
+.sapMBtnInner{
+	background-color: #1E2E44 !important;
+	/*border-radius:0rem !important;*/
+}
+.headerBtnSelected .sapMBtnInner{
+	border-bottom-width: medium;
+}
+.Home.headerBtnSelected .sapMBtnInner{
+	border-bottom-color: #c70000 !important;
+}
+.ProjectExp.headerBtnSelected .sapMBtnInner{
+	border-bottom-color: #e05e00 !important;
+}
+.Skills.headerBtnSelected .sapMBtnInner{
+	border-bottom-color: #0084c6 !important;
+}
+.Education.headerBtnSelected .sapMBtnInner{
+	border-bottom-color: #bb3b80 !important;
+}
+.homeContentPanelTitle,
+.gyTitle{
+	font-weight: bold !important;
+}
+.About.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #e05e00 !important;
+}
+.Contact.headerBtnSelected .sapMBtnInner{
+  border-bottom-color: #bb3b80 !important;
+}
+.homeContentPanelTitle .sapMPanelHdr{
+	color: white !important;
+	font-size:40px;
+}
+.sapMText,
+.sapMLabel,
+.sapMPanelHdr,
+.sapUiForm .sapUiFormTitle{
+	color: white !important;
+}
+.submitButtonContactForm{
+	padding-left: 26%;
+}
+.social{
+	margin-left: 26%;
+	margin-top: 1%;
+}
+.social .link{
+	color: white;
+}
+.gyImage{
+	width: 150px !important;
+}
+.getInTouchTitle,
+.sapUiFormTitle.sapUiFormTitleH5{
+    padding-left: 25%;
+    font-size: 25px;
+    font-weight: bold;	
+}

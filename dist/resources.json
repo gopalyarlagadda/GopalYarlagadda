@@ -1,0 +1,181 @@
+{
+    "resources": [
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "css/style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "images/favicon.ico"
+        },
+        {
+            "name": "images/favicon.png"
+        },
+        {
+            "name": "images/gy.jpg"
+        },
+        {
+            "name": "images/twitter.jpg"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/gy_data.json"
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "tmp/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "tmp/Component.js"
+        },
+        {
+            "name": "tmp/controller/App.controller.js"
+        },
+        {
+            "name": "tmp/css/style.css"
+        },
+        {
+            "name": "tmp/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "tmp/images/favicon.ico"
+        },
+        {
+            "name": "tmp/images/favicon.png"
+        },
+        {
+            "name": "tmp/images/gy.jpg"
+        },
+        {
+            "name": "tmp/images/twitter.jpg"
+        },
+        {
+            "name": "tmp/index.html"
+        },
+        {
+            "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/gy_data.json"
+        },
+        {
+            "name": "tmp/model/models.js"
+        },
+        {
+            "name": "tmp/util/HeaderUtil.js"
+        },
+        {
+            "name": "tmp/view/App.view.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Contact.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Header.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Home.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/News.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/ProjectExp.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/SocialLinks.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Weather.fragment.xml"
+        },
+        {
+            "name": "tmp-dbg/Component.js"
+        },
+        {
+            "name": "tmp-dbg/controller/App.controller.js"
+        },
+        {
+            "name": "tmp-dbg/css/style.css"
+        },
+        {
+            "name": "tmp-dbg/model/models.js"
+        },
+        {
+            "name": "tmp-dbg/util/HeaderUtil.js"
+        },
+        {
+            "name": "util/HeaderUtil-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/HeaderUtil.js"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/fragment/Contact.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Header.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Home.fragment.xml"
+        },
+        {
+            "name": "view/fragment/News.fragment.xml"
+        },
+        {
+            "name": "view/fragment/ProjectExp.fragment.xml"
+        },
+        {
+            "name": "view/fragment/SocialLinks.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Weather.fragment.xml"
+        }
+    ]
+}

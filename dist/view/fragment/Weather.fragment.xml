@@ -1,0 +1,6 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:core="sap.ui.core">
+	<core:HTML content="&lt;a class=&quot;weatherwidget-io&quot; href=&quot;https://forecast7.com/en/51d51n0d13/london/&quot; data-label_1=&quot;LONDON&quot; data-label_2=&quot;WEATHER&quot; data-font=&quot;Arial&quot; data-icons=&quot;Climacons Animated&quot; data-days=&quot;3&quot; data-theme=&quot;pure&quot; &gt;LONDON WEATHER&lt;/a&gt;"/>
+</core:FragmentDefinition>
