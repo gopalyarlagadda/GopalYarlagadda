@@ -18,7 +18,7 @@
 				</layoutData>
 				<Panel class="homeContentPanelTitle" headerText="{i18n>gyTitle}">
 					<Image
-						src="../images/gy.jpg"
+						src="images/gy.jpg"
 						densityAware="false"
 						class="gyImage">
 						<layoutData>

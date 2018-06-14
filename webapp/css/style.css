@@ -2,6 +2,7 @@
 /*Menu styling*/
 .sapMIBar.sapMHeader-CTX{
 	background-color: #1E2E44;
+	/*background-color: #5a616b;*/
 }
  .OtbMenuButton .sapMBtnContent{
 	font-size: 1.2rem;
@@ -40,6 +41,7 @@
 }
 .sapMPage{
 	background-color: #1E2E44;
+	/*background-color: #5a616b;*/
 }
 .nameTitle,
 .nameTitle .sapMPanelHdr,

@@ -45,7 +45,7 @@
 							<f:fields>
 								<Input value="" id="email">
 									<layoutData>
-										<l:GridData span="XL1 L2 M2 S4" />
+										<l:GridData span="XL2 L3 M2 S4" />
 									</layoutData>									
 								</Input>
 							</f:fields>
@@ -54,7 +54,7 @@
 							<f:fields>
 								<Input value="">
 									<layoutData>
-										<l:GridData span="XL1 L2 M2 S4" />
+										<l:GridData span="XL2 L3 M2 S4" />
 									</layoutData>
 								</Input>
 							</f:fields>
@@ -68,7 +68,7 @@
 										<core:Item text="{i18n>countryNIItem}" key="NI"/>
 									</items>
 									<layoutData>
-										<l:GridData span="XL1 L2 M2 S4" />
+										<l:GridData span="XL2 L3 M2 S4" />
 									</layoutData>									
 								</Select>
 							</f:fields>
