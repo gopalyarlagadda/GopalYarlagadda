@@ -108,6 +108,9 @@
             "name": "tmp/util/HeaderUtil.js"
         },
         {
+            "name": "tmp/util/plugin.js"
+        },
+        {
             "name": "tmp/view/App.view.xml"
         },
         {
@@ -124,6 +127,12 @@
         },
         {
             "name": "tmp/view/fragment/ProjectExp.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/RichTextEditor.fragment.xml"
+        },
+        {
+            "name": "tmp/view/fragment/Skills.fragment.xml"
         },
         {
             "name": "tmp/view/fragment/SocialLinks.fragment.xml"
@@ -147,11 +156,21 @@
             "name": "tmp-dbg/util/HeaderUtil.js"
         },
         {
+            "name": "tmp-dbg/util/plugin.js"
+        },
+        {
             "name": "util/HeaderUtil-dbg.js",
             "isDebug": true
         },
         {
             "name": "util/HeaderUtil.js"
+        },
+        {
+            "name": "util/plugin-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "util/plugin.js"
         },
         {
             "name": "view/App.view.xml"
@@ -170,6 +189,12 @@
         },
         {
             "name": "view/fragment/ProjectExp.fragment.xml"
+        },
+        {
+            "name": "view/fragment/RichTextEditor.fragment.xml"
+        },
+        {
+            "name": "view/fragment/Skills.fragment.xml"
         },
         {
             "name": "view/fragment/SocialLinks.fragment.xml"
