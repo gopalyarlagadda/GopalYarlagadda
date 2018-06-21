@@ -1,5 +1,5 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
+	"sap/ui/core/mvc/Controller",
 ], function(Controller) {
 	"use strict";
 
@@ -52,6 +52,11 @@ sap.ui.define([
 			var projExpBtn = oEvent.getSource();
 			projExpBtn.addStyleClass("headerBtnSelected");
 			this._showFormFragment("Contact");
+		},
+		
+		onPressRte: function(){
+			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.navTo("RichTextEditor", true);
 		},
 		
 		onPressProjectExp: function(oEvent){

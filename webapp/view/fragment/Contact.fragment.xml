@@ -39,16 +39,7 @@
 						</f:FormElement>
 						<f:FormElement label="{i18n>messageLblTxt}">
 							<f:fields>
-								<!--<TextArea value="" id="message"/>-->
-							<r:RichTextEditor	id="richEdit" 
-												editorType="TinyMCE4"  
-												width= "100%" 
-												height="500px"
-												customToolbar= "true" 
-												showGroupFont= "true"	
-												showGroupLink= "true" 
-												showGroupInsert= "true"
-												plugins= "{['table','media']}"/>								
+								<TextArea value="" id="message"/>
 							</f:fields>
 						</f:FormElement>						
 						<f:FormElement label="{i18n>emailLblTxt}">

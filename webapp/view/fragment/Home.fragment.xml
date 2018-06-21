@@ -29,12 +29,6 @@
 						<Text text="{i18n>homePageText}" class="homePageText"/>
 					</content>
 				</Panel>
-				<!--<Panel class="homeContentPanel">-->
-				<!--	<headerToolbar>-->
-
-				<!--	</headerToolbar>-->
-				<!--	<Text text="{i18n>homePageText}" class="homePageText"/>-->
-				<!--</Panel>-->
             </VBox>
 			<!--<VBox class="column newsBox newsNameTitle sapUiVisibleOnlyOnDesktop">-->
 			<!--	<core:Fragment fragmentName="gy.com.GopalYarlagadda.view.fragment.News" type="XML"/>-->
