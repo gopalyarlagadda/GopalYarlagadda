@@ -29,10 +29,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_belize"
-		]
+		"supportedThemes": ["sap_hcb", "sap_belize"]
 	},
 	"sap.ui5": {
 		"rootView": {
@@ -60,11 +57,9 @@
 			}
 		},
 		"resources": {
-			"css": [
-				{
-					"uri": "css/style.css"
-				}
-			]
+			"css": [{
+				"uri": "css/style.css"
+			}]
 		},
 		"routing": {
 			"config": {
@@ -76,22 +71,15 @@
 				"controlId": "idAppControl",
 				"clearControlAggregation": false
 			},
-			"routes": [
-				{
-					"name": "RouteApp",
-					"pattern": "RouteApp",
-					"target": [
-						"TargetApp"
-					]
-				},
-				{
-					"name": "RichTextEditor",
-					"pattern": "RichTextEditor",
-					"target": [
-						"RichTextEditor"
-					]
-				}				
-			],
+			"routes": [{
+				"name": "RouteApp",
+				"pattern": "RouteApp",
+				"target": ["TargetApp"]
+			}, {
+				"name": "RichTextEditor",
+				"pattern": "RichTextEditor",
+				"target": ["RichTextEditor"]
+			}],
 			"targets": {
 				"TargetApp": {
 					"viewType": "XML",
